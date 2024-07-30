@@ -1,20 +1,4 @@
-const locations = [
-    {
-        name: "Bratislava",
-        href: 'locations/bratislava.html',
-        latLng: [48.148598, 17.107748],
-    },
-    {
-        name: "Vienna",
-        href: 'locations/vienna.html',
-        latLng: [48.210033, 16.363449]
-    },
-    {
-        name: 'Erlaufsee',
-        href: 'locations/erlaufsee.html',
-        latLng: [47.791809, 15.273135]
-    }
-];
+import { locations } from "./locations.js";
 
 const map = L.map('map').setView(locations[0].latLng, 13);
 
