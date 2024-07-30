@@ -6,8 +6,14 @@ const locations = [
     },
     {
         name: "Viena",
-        href: 'locations/vienna.html', latLng: [48.210033, 16.363449]
+        href: 'locations/vienna.html',
+        latLng: [48.210033, 16.363449]
     },
+    {
+        name: 'Erlaufsee',
+        href: 'locations/erlaufsee.html',
+        latLng: [47.791809, 15.273135]
+    }
 ];
 
 const map = L.map('map').setView(locations[0].latLng, 13);
