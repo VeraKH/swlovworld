@@ -5,7 +5,7 @@ const locations = [
         latLng: [48.148598, 17.107748],
     },
     {
-        name: "Viena",
+        name: "Vienna",
         href: 'locations/vienna.html',
         latLng: [48.210033, 16.363449]
     },
