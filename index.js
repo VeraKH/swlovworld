@@ -1,7 +1,7 @@
 import { locations } from "./locations.js";
 import { calculateCenter } from "./utils.js";
 
-const map = L.map('map').setView(calculateCenter(locations), 3);
+const map = L.map('map').setView(calculateCenter(locations), 9);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
